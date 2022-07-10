@@ -1,0 +1,213 @@
+.logo{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body {
+    background-image: radial-gradient( circle 767px at 10.2% 22.1%,  rgba(11,218,81,1) 0%, rgba(0,191,255,1) 90% );
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    background-color: rgb(230, 241, 143);
+    border: solid 110px rgb(204, 88, 88);
+    border-radius:10px;
+    padding: 0px;
+    width: -99px;
+    font-family: cursive;
+    font-weight: bold;
+    margin-top: -650px;
+    margin-left: auto;
+    margin-right: 30px;
+    text-align: center;
+    font-size: -30px;
+}
+
+
+body{
+	font-family: arial, helvetica;
+	background: #ca0909;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #0a0a0a;
+	width: 80%;
+	max-width: 1000px;
+	margin:-28;
+    text-align: center;
+    margin-top: -35%;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #4fdbe8;
+}
+.div1{
+    margin-top:-300px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.container3{
+text-align: center;
+}
+li{
+    margin: 15px 0px;
+    font-weight: bold;
+}
+.final1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: rgb(160, 92, 208);
+    height: 80vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    margin-top: -115px;
+    width:365px;
+    border:10px solid rgb(15, 15, 15);
+    border-radius:310px;
+    padding-right: -65px ;
+    margin-left: 450px;
+    margin-top:-105px;
+    max-width: 70%;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+	font-family: sans-serif;
+}
+.container-bar{
+	width: 100%;
+	max-width: 50px;
+	position: fixed;
+	left: 0;
+	top: 15%;
+}
+.container-bar a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	position: relative;
+	transition: all 500ms ease;
+	color: #fff;
+}
+.container-bar a:hover{
+	background: #1c1c1c;
+}
+.container-bar .fa-facebook{
+	background: #3b5998;
+	border-radius: 0px 5px 0px 0px;
+}
+.container-bar .fa-youtube{
+	background: #e52a23;
+}
+
+.container-bar .fa-pinterest{
+	background: #2326c8;
+	border-radius: 0px 0px 5px 0px;
+}
+.container-bar #title{
+	position: absolute;
+	background: #1c1c1c;
+	padding: 0px 8px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 3px;
+	font-size: 15px;
+	top:22px; left: 0px;
+	transition: all 500ms ease;
+	opacity: 0;
+	visibility: hidden;
+	z-index: -1;
+}
+.container-bar a:hover #title{
+	opacity: 1;
+	visibility: visible;
+	left: 64px;
+}
+.container-bar #title:after{
+	position: absolute;
+	content: '';
+	border-left: 7px solid transparent;
+	border-right: 6px solid #1c1c1c;
+	border-top: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	right: 100%;
+	top: 8px;
+}
+#btn-social{
+	display: none;
+}
+.fa-play{
+	cursor: pointer;
+	transition: all 0.4s;
+	font-size: 12px;
+	margin-bottom: 5px;
+	display: inline-block;
+	transform: rotate(180deg);
+	color: #49b0e6;
+}
+#btn-social:checked ~ .fa-play{
+	transform: rotate(0deg);
+}
+.icon-social{
+	transition: all 0.4s;
+	transform: translateX(0%);
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+}
+#btn-social:checked ~ .icon-social{
+	transform: translateX(-100%);
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.0);
+}
+
+div#subContenido{
+    width: 950px;
+    height:-10px;
+    margin-left: -150px;
+    padding-bottom: -100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: -45%;
+    margin-top:-110%;
+	line-height:100px;
+    left: 25px;;
+    bottom: auto;
+    margin-bottom: 25%;
+    box-sizing: border-box;
+}
+div#Descripción{
+    border-width: 8px;
+    height:-10px;
+    margin-left: -10px;
+    margin-left: 10%;
+    margin-top:60px;
+    max-width:- 70%;
+    padding-bottom: -165%;
+    padding: 150px;
+    left: -5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
